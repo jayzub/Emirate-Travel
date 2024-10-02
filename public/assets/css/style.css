@@ -1,0 +1,62 @@
+body {
+    background-color: #e5a13e;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+
+/* styles for the homepage */
+.jumbotron {
+    background-image: url('/assets/images/banner.jpg');
+    background-size:cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+footer {
+    color: #fff;
+}
+
+
+/*styles for the contact page */
+#map {
+    width: 100%;
+}
+
+footer {
+    color: #fff;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    border-radius: 0;
+}
+
+.form-group textarea {
+    resize: none;
+}
